@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hi-Engine_forRaspberryPi", "Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi.vcxproj", "{B56C7A98-F7F0-4F33-9874-4CE6E1C11FE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B56C7A98-F7F0-4F33-9874-4CE6E1C11FE9}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B56C7A98-F7F0-4F33-9874-4CE6E1C11FE9}.Debug|ARM.Build.0 = Debug|ARM
+		{B56C7A98-F7F0-4F33-9874-4CE6E1C11FE9}.Debug|ARM.Deploy.0 = Debug|ARM
+		{B56C7A98-F7F0-4F33-9874-4CE6E1C11FE9}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{B56C7A98-F7F0-4F33-9874-4CE6E1C11FE9}.Debug|ARM64.Build.0 = Debug|ARM64
+		{B56C7A98-F7F0-4F33-9874-4CE6E1C11FE9}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{B56C7A98-F7F0-4F33-9874-4CE6E1C11FE9}.Release|ARM.ActiveCfg = Release|ARM
+		{B56C7A98-F7F0-4F33-9874-4CE6E1C11FE9}.Release|ARM.Build.0 = Release|ARM
+		{B56C7A98-F7F0-4F33-9874-4CE6E1C11FE9}.Release|ARM.Deploy.0 = Release|ARM
+		{B56C7A98-F7F0-4F33-9874-4CE6E1C11FE9}.Release|ARM64.ActiveCfg = Release|ARM64
+		{B56C7A98-F7F0-4F33-9874-4CE6E1C11FE9}.Release|ARM64.Build.0 = Release|ARM64
+		{B56C7A98-F7F0-4F33-9874-4CE6E1C11FE9}.Release|ARM64.Deploy.0 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B9FE521-D103-485C-9CB9-3F61BD84BA3E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="BasicScene.cpp">
+      <Filter>SourceFile\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineManager.cpp">
+      <Filter>SourceFile\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>SourceFile\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>SourceFile\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>SourceFile\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>SourceFile\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>SourceFile\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>SourceFile\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldOutliner.cpp">
+      <Filter>SourceFile\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>SourceFile\User</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>SourceFile\User</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SourceFile">
+      <UniqueIdentifier>{13466f41-9f76-4092-bdd3-5bd6e7931b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeaderFile">
+      <UniqueIdentifier>{5634f073-5861-4551-9988-930ad8edc08b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeaderFile\Engine">
+      <UniqueIdentifier>{62875145-2502-4acf-bac4-28d4e622f523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFile\Engine">
+      <UniqueIdentifier>{8a2974bb-632a-441b-9344-5d1d2d3cf9ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeaderFile\User">
+      <UniqueIdentifier>{d6dcecf3-7166-46d5-8c67-db48a38dac83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFile\User">
+      <UniqueIdentifier>{9af3f53b-31fb-45ce-a3d5-0b03656743e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicScene.h">
+      <Filter>HeaderFile\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineManager.h">
+      <Filter>HeaderFile\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>HeaderFile\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>HeaderFile\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>HeaderFile\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>HeaderFile\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>HeaderFile\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>HeaderFile\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldOutliner.h">
+      <Filter>HeaderFile\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>HeaderFile\User</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>HeaderFile\User</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

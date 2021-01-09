@@ -1,6 +1,7 @@
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\BasicScene.cpp|637279289681744664|~/projects/Hi-Engine_forRaspberryPi|
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp|637457032863904345|~/projects/Hi-Engine_forRaspberryPi|
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\main.cpp|637457033408272209|~/projects/Hi-Engine_forRaspberryPi|
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp|637458008183431351|~/projects/Hi-Engine_forRaspberryPi|
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp|637458007405226047|~/projects/Hi-Engine_forRaspberryPi|
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\main.cpp|637458007405295859|~/projects/Hi-Engine_forRaspberryPi|
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Map.cpp|637457028432223761|~/projects/Hi-Engine_forRaspberryPi|
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.cpp|637457028086640683|~/projects/Hi-Engine_forRaspberryPi|
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\SceneManager.cpp|637445777501794168|~/projects/Hi-Engine_forRaspberryPi|
@@ -11,7 +12,8 @@ D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Eng
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Wall.cpp|637457030121683309|~/projects/Hi-Engine_forRaspberryPi|
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\WorldOutliner.cpp|637457027764181100|~/projects/Hi-Engine_forRaspberryPi|
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\BasicScene.h|637278410671716177|~/projects/Hi-Engine_forRaspberryPi|
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.h|637457009168916136|~/projects/Hi-Engine_forRaspberryPi|
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.h|637458003738608689|~/projects/Hi-Engine_forRaspberryPi|
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.h|637458006086804110|~/projects/Hi-Engine_forRaspberryPi|
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Map.h|637278366882630918|~/projects/Hi-Engine_forRaspberryPi|
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h|637457028086560898|~/projects/Hi-Engine_forRaspberryPi|
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\SceneManager.h|637278421357351088|~/projects/Hi-Engine_forRaspberryPi|

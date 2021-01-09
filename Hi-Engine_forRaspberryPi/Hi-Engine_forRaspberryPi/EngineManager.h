@@ -1,13 +1,14 @@
 #pragma once
 #include "SceneManager.h"
-
+#include "LEDMatrix.h"
 
 
 class EngineManager
 {
 private:
-	char message[1000];
+	char message[1000]{};
 	SceneManager* scene;
+	LEDMatrix* led_matrix_;
 public:
 	EngineManager();
 

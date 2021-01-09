@@ -8,13 +8,14 @@
 
 EngineManager::EngineManager()
 {
+	led_matrix_ = new LEDMatrix();
 	this->scene = new TestScene();
 	Game();
 }
 
 EngineManager::EngineManager(SceneManager* scene)
 {
-	
+	led_matrix_ = new LEDMatrix();
 	this->scene = scene;
 	Game();
 }
@@ -97,7 +98,7 @@ void EngineManager::Print_Map()
 	for (Position i : v)
 	{
 		std::string str = "";
-		
+
 
 		{
 			char num[3];
@@ -109,9 +110,9 @@ void EngineManager::Print_Map()
 			snprintf(num, 3, "%02d", i.y);
 			str.append(num);
 		}
-		
+
 		int comparestr = scene->mapPointer->GetPartOfMap({ i.x, i.y }).compare("  ");
-		if(comparestr == 0)
+		if (comparestr == 0)
 		{
 			std::cout << "ii";
 			str.append(std::to_string(0));
@@ -122,9 +123,15 @@ void EngineManager::Print_Map()
 			str.append(std::to_string(1));
 		}
 
-		
+		if (i.x < 32 && i.y < 16)
+		{
+			led_matrix_->set_pixel(i.x, i.y, comparestr);
+		}
 
+		std::cout << i.x << i.y << std::endl;
 	}
+
+	led_matrix_->refresh();
 }
 
 EngineManager::~EngineManager()

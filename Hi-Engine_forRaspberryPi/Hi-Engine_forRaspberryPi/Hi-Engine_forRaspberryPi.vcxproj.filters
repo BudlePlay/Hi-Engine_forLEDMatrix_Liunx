@@ -35,6 +35,9 @@
     <ClCompile Include="TestScene.cpp">
       <Filter>SourceFile\User</Filter>
     </ClCompile>
+    <ClCompile Include="LEDMatrix.cpp">
+      <Filter>SourceFile\Engine\Display</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="SourceFile">
@@ -54,6 +57,12 @@
     </Filter>
     <Filter Include="SourceFile\User">
       <UniqueIdentifier>{9af3f53b-31fb-45ce-a3d5-0b03656743e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeaderFile\Engine\Display">
+      <UniqueIdentifier>{dc8d5be8-6fe6-4b5d-a88e-fd18f7211ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFile\Engine\Display">
+      <UniqueIdentifier>{3ca4a1e4-0ebb-4ee6-ac0e-a7c111e92eaa}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +98,9 @@
     </ClInclude>
     <ClInclude Include="Wall.h">
       <Filter>HeaderFile\User</Filter>
+    </ClInclude>
+    <ClInclude Include="LEDMatrix.h">
+      <Filter>HeaderFile\Engine\Display</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

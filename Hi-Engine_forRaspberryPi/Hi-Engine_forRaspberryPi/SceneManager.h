@@ -6,7 +6,7 @@
 
 #include "Tools.h"
 #include "WorldOutliner.h"
-
+#include <vector>
 
 class SceneManager
 {

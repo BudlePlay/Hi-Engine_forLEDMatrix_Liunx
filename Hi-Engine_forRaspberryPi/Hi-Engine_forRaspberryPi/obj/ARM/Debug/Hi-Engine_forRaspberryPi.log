@@ -4,19 +4,10 @@
   아키텍처의 유효성을 검사하는 중
   원격 빌드를 시작하는 중
   소스를 컴파일하는 중:
-  EngineManager.cpp
+  main.cpp
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(128,29): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(128,29): warning :     led_matrix_->set_pixel(i.x, i.y, comparestr);
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(128,29): warning :                            ~~^
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(128,34): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(128,34): warning :     led_matrix_->set_pixel(i.x, i.y, comparestr);
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(128,34): warning :                                 ~~^
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(128,37): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(128,37): warning :     led_matrix_->set_pixel(i.x, i.y, comparestr);
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(128,37): warning :                                      ^~~~~~~~~~
   개체를 연결하는 중
   Hi-Engine_forRaspberryPi.vcxproj -> D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\bin\ARM\Debug\Hi-Engine_forRaspberryPi.out
   'gpio export 17 out' 호출 중, 작업 디렉터리: '/home/pi/projects/Hi-Engine_forRaspberryPi/'

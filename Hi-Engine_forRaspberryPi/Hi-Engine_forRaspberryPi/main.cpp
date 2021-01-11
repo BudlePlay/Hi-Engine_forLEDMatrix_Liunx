@@ -7,7 +7,7 @@
 
 int main(void)
 {
+	std::cout << "hi" << std::endl;
 	EngineManager Engine = EngineManager(new TestScene());
-
 	
 }

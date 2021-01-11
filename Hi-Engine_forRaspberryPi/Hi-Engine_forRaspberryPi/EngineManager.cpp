@@ -96,32 +96,9 @@ void EngineManager::Print_Map()
 
 	std::vector<Position> v = scene->mapPointer->ModifiedMap();
 	for (Position i : v)
-	{
-		std::string str = "";
-
-
-		{
-			char num[3];
-			snprintf(num, 3, "%02d", i.x);
-			str.append(num);
-		}
-		{
-			char num[3];
-			snprintf(num, 3, "%02d", i.y);
-			str.append(num);
-		}
-
+	{	
 		int comparestr = scene->mapPointer->GetPartOfMap({ i.x, i.y }).compare("  ");
-		if (comparestr == 0)
-		{
-			std::cout << "ii";
-			str.append(std::to_string(0));
-		}
-		else
-		{
-			std::cout << scene->mapPointer->GetPartOfMap({ i.x, i.y });
-			str.append(std::to_string(1));
-		}
+	
 
 		if (i.x < 32 && i.y < 16)
 		{

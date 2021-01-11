@@ -38,6 +38,9 @@
     <ClCompile Include="LEDMatrix.cpp">
       <Filter>SourceFile\Engine\Display</Filter>
     </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>SourceFile\User</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="SourceFile">
@@ -101,6 +104,9 @@
     </ClInclude>
     <ClInclude Include="LEDMatrix.h">
       <Filter>HeaderFile\Engine\Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>HeaderFile\User</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

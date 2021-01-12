@@ -1,6 +1,7 @@
 #include "TestScene.h"
 
 #include "BasicScene.h"
+#include "Player.h"
 #include "Wall.h"
 
 TestScene::TestScene(): SceneManager()
@@ -12,8 +13,8 @@ void TestScene::Create()
 {
 	Map_Make();
 
-	
-	//SceneChange(new BasicScene);
+	worldOutliner.AddObject(new Player({ 1,1 }, "Player", "aa", { 1,1 },
+		"", "Actor"));
 }
 
 void TestScene::Render(float dt)

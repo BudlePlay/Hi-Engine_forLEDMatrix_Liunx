@@ -1,4 +1,5 @@
 #include "Player.h"
+#include "LEDMatrix.h"
 
 Player::Player(const FPosition& p, const std::string& name, const std::string& shape, const Area& Area,
                const std::string& direction, const std::string& Type): Object(p, name, shape, Area, direction, Type)
@@ -8,9 +9,11 @@ Player::Player(const FPosition& p, const std::string& name, const std::string& s
 
 void Player::Work()
 {
-	if (is_input_)
+	int data = LEDMatrix::get_joy();
+
+	if (data != -1)
 	{
-		std::cout << "player y : " << position.y << std::endl;
+		player_input_ = (PLAYER_INPUT)data;
 		control();
 	}
 }

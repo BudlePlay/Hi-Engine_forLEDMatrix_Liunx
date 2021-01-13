@@ -96,13 +96,22 @@ void EngineManager::Print_Map()
 
 	std::vector<Position> v = scene->mapPointer->ModifiedMap();
 	for (Position i : v)
-	{	
+	{
 		int comparestr = scene->mapPointer->GetPartOfMap({ i.x, i.y }).compare("  ");
-	
+
+		int color = 0;
+		if (comparestr == 0)
+		{
+			color = 0;
+		}
+		else
+		{
+			color = 1;
+		}
 
 		if (i.x < 32 && i.y < 16)
 		{
-			led_matrix_->set_pixel(i.x, i.y, comparestr);
+			led_matrix_->set_pixel(i.x, i.y, color);
 		}
 
 		std::cout << i.x << i.y << std::endl;

@@ -1,10 +1,8 @@
 #pragma once
 //g++ -o test test.cpp -lwiringPi -lwiringPiDev
 
-#include <tuple>
-using namespace std;
-
 #include <wiringPi.h>
+#include "Tools.h"
 
 #define R1 17
 #define R2 23
@@ -21,6 +19,22 @@ using namespace std;
 #define LATCH 4
 #define OE 2
 
+#define JOY_UP 13
+#define JOY_DOWN 6
+#define JOY_LEFT 19
+#define JOY_RIGHT 26
+
+enum COLOR
+{
+    BLACK = 0,
+    RED,
+    GREEN,
+    YELLOW,
+    BLUE,
+    PURPLE,
+    TURQUOISE,
+    WHITE
+};
 
 class LEDMatrix
 {
@@ -34,7 +48,7 @@ public:
 
     static void latch();
 
-    static tuple<unsigned char, unsigned char, unsigned char> bits_from_int(unsigned char x);
+    static unsigned char bits_from_int(unsigned char mode, unsigned char x);
 
     void set_row(unsigned char row) const;
 
@@ -45,4 +59,6 @@ public:
     void refresh();
 
     void set_pixel(unsigned char x, unsigned char y, unsigned char color);
+
+    static int get_joy();
 };

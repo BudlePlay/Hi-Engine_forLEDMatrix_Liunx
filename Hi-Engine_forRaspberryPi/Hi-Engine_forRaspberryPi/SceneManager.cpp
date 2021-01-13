@@ -44,7 +44,6 @@ void SceneManager::UploadMap(std::vector<Object*> obs)
 		}
 		catch (std::exception e)
 		{
-			std::cout << "ERROR : out of Map" << std::endl;
 		}
 	}
 }

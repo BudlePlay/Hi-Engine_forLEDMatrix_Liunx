@@ -1,4 +1,5 @@
 #include "LEDMatrix.h"
+#include <iostream>
 
 LEDMatrix::LEDMatrix()
 {
@@ -18,6 +19,16 @@ LEDMatrix::LEDMatrix()
 	pinMode(CLK, OUTPUT);
 	pinMode(LATCH, OUTPUT);
 	pinMode(OE, OUTPUT);
+
+	pinMode(JOY_UP, INPUT);
+	pinMode(JOY_DOWN, INPUT);
+	pinMode(JOY_LEFT, INPUT);
+	pinMode(JOY_RIGHT, INPUT);
+
+	pullUpDnControl(JOY_UP, PUD_UP);
+	pullUpDnControl(JOY_DOWN, PUD_UP);
+	pullUpDnControl(JOY_LEFT, PUD_UP);
+	pullUpDnControl(JOY_RIGHT, PUD_UP);
 }
 
 void LEDMatrix::clk()
@@ -34,33 +45,32 @@ void LEDMatrix::latch()
 	digitalWrite(LATCH, 0);
 }
 
-tuple<unsigned char, unsigned char, unsigned char> LEDMatrix::bits_from_int(unsigned char x)
+unsigned char LEDMatrix::bits_from_int(unsigned char mode, unsigned char x)
 {
-	return tuple<unsigned char, unsigned char, unsigned char>(x & 1, x & 2, x & 4);
+	if (mode == 0) return x & 1;
+	if (mode == 1) return x & 2;
+	if (mode == 2) return x & 4;
 }
 
 void LEDMatrix::set_row(unsigned char row) const
 {
-	tuple<unsigned char, unsigned char, unsigned char> result = bits_from_int(row);
-	digitalWrite(A, get<0>(result));
-	digitalWrite(B, get<1>(result));
-	digitalWrite(C, get<2>(result));
+	digitalWrite(A, bits_from_int(0, row));
+	digitalWrite(B, bits_from_int(1, row));
+	digitalWrite(C, bits_from_int(2, row));
 }
 
 void LEDMatrix::set_color_top(unsigned char color) const
 {
-	tuple<unsigned char, unsigned char, unsigned char> result = bits_from_int(color);
-	digitalWrite(R1, get<0>(result));
-	digitalWrite(G1, get<1>(result));
-	digitalWrite(B1, get<2>(result));
+	digitalWrite(R1, bits_from_int(0, color));
+	digitalWrite(G1, bits_from_int(1, color));
+	digitalWrite(B1, bits_from_int(2, color));
 }
 
 void LEDMatrix::set_color_bottom(unsigned char color) const
 {
-	tuple<unsigned char, unsigned char, unsigned char> result = bits_from_int(color);
-	digitalWrite(R2, get<0>(result));
-	digitalWrite(G2, get<1>(result));
-	digitalWrite(B2, get<2>(result));
+	digitalWrite(R2, bits_from_int(0, color));
+	digitalWrite(G2, bits_from_int(1, color));
+	digitalWrite(B2, bits_from_int(2, color));
 }
 
 void LEDMatrix::refresh()
@@ -85,4 +95,13 @@ void LEDMatrix::refresh()
 void LEDMatrix::set_pixel(unsigned char x, unsigned char y, unsigned char color)
 {
 	screen[y][x] = color;
+}
+
+int LEDMatrix::get_joy()
+{
+	if (!digitalRead(JOY_UP)) return 0;
+	if (!digitalRead(JOY_DOWN)) return 1;
+	if (!digitalRead(JOY_LEFT)) return 2;
+	if (!digitalRead(JOY_RIGHT)) return 3;
+	return -1;
 }

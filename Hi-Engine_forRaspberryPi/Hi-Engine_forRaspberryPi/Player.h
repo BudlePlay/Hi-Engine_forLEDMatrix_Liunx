@@ -1,14 +1,8 @@
 #pragma once
 
 #include "Object.h"
+#include "Tools.h"
 
-enum PLAYER_INPUT
-{
-	UP = 0,
-	DOWN,
-	LEFT,
-	RIGHT
-};
 class Player : public Object
 {
 public:

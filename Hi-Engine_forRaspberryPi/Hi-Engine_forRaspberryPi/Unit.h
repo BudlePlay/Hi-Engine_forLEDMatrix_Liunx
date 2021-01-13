@@ -7,11 +7,33 @@ struct Position
 	int y;
 };
 
+
 struct FPosition
 {
-	float x;
-	float y;
+	float x; //1
+	float y;//2 
 	FPosition(float x_, float y_) : x(x_), y(y_) {}
+
+	FPosition& operator=(const FPosition& a) // a.x \ 3, a.y =4
+	{
+		x = a.x;
+		y = a.y;
+		return *this;
+	}
+	FPosition operator+(const FPosition& a) const
+	{
+		return FPosition(a.x + x, a.y + y);
+	}
+	FPosition operator-(const FPosition& a) const
+	{
+		return FPosition(a.x - x, a.y - y);
+	}
+
+	bool operator==(const FPosition& a) const
+	{
+		return (x == a.x && y == a.y);
+	}
+
 };
 
 struct Area

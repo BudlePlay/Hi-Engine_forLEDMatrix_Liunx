@@ -20,11 +20,11 @@ void Player::Work()
 
 void Player::OnCollision(Object* other)
 {
-	
 }
 
 void Player::control()
 {
+	
 	if (player_input_ == UP)
 	{
 		Translate({ 0,-1 });

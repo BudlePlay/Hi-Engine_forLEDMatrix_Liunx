@@ -16,6 +16,7 @@ public:
 private:
 	bool is_input_;
 	PLAYER_INPUT player_input_;
+	FPosition prev_position_{0,0};
 	void control();
 	void move();
 };

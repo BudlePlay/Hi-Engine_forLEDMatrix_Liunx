@@ -5,71 +5,71 @@
   원격 빌드를 시작하는 중
   소스를 컴파일하는 중:
   BasicScene.cpp
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
   EngineManager.cpp
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,29): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,29): warning :     led_matrix_->set_pixel(i.x, i.y, color);
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,29): warning :                            ~~^
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,34): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,34): warning :     led_matrix_->set_pixel(i.x, i.y, color);
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,34): warning :                                 ~~^
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,37): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,37): warning :     led_matrix_->set_pixel(i.x, i.y, color);
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,37): warning :                                      ^~~~~
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,29): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,29): warning :     led_matrix_->set_pixel(i.x, i.y, color);
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,29): warning :                            ~~^
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,34): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,34): warning :     led_matrix_->set_pixel(i.x, i.y, color);
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,34): warning :                                 ~~^
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,37): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,37): warning :     led_matrix_->set_pixel(i.x, i.y, color);
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,37): warning :                                      ^~~~~
   LEDMatrix.cpp
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(82,11): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(82,11): warning :    set_row(row);
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(82,11): warning :            ^~~
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(53,1): warning : control reaches end of non-void function [-Wreturn-type]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(53,1): warning :  }
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(53,1): warning :  ^
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(82,11): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(82,11): warning :    set_row(row);
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(82,11): warning :            ^~~
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(53,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(53,1): warning :  }
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(53,1): warning :  ^
   main.cpp
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
   Map.cpp
   Object.cpp
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.cpp(85,2): warning : nonnull argument ‘this’ compared to NULL [-Wnonnull-compare]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.cpp(85,2): warning :   if (this)
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.cpp(85,2): warning :   ^~
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.cpp(85,2): warning : nonnull argument ‘this’ compared to NULL [-Wnonnull-compare]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.cpp(85,2): warning :   if (this)
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.cpp(85,2): warning :   ^~
   Player.cpp
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
   SceneManager.cpp
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\SceneManager.cpp(45,25): warning : catching polymorphic type ‘class std::exception’ by value [-Wcatch-value=]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\SceneManager.cpp(45,25): warning : catching polymorphic type ‘class std::exception’ by value [-Wcatch-value=]
   TestScene.cpp
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
   Time.cpp
   Tools.cpp
   Unit.cpp
   Wall.cpp
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
   WorldOutliner.cpp
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\WorldOutliner.cpp(28,11): warning : statement has no effect [-Wunused-value]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\WorldOutliner.cpp(28,11): warning :   for (iter; iter != objects.end();)
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\WorldOutliner.cpp(28,11): warning :            ^
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\WorldOutliner.cpp(38,11): warning : statement has no effect [-Wunused-value]
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\WorldOutliner.cpp(38,11): warning :   for (iter; iter != objects.end();)
-C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\WorldOutliner.cpp(38,11): warning :            ^
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\WorldOutliner.cpp(28,11): warning : statement has no effect [-Wunused-value]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\WorldOutliner.cpp(28,11): warning :   for (iter; iter != objects.end();)
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\WorldOutliner.cpp(28,11): warning :            ^
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\WorldOutliner.cpp(38,11): warning : statement has no effect [-Wunused-value]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\WorldOutliner.cpp(38,11): warning :   for (iter; iter != objects.end();)
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\WorldOutliner.cpp(38,11): warning :            ^
   개체를 연결하는 중
-  Hi-Engine_forRaspberryPi.vcxproj -> C:\Repository\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\bin\ARM\Debug\Hi-Engine_forRaspberryPi.out
+  Hi-Engine_forRaspberryPi.vcxproj -> D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\bin\ARM\Debug\Hi-Engine_forRaspberryPi.out
   'gpio export 17 out' 호출 중, 작업 디렉터리: '/home/pi/projects/Hi-Engine_forRaspberryPi/'

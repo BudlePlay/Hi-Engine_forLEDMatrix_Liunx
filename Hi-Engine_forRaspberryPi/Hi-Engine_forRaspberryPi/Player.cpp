@@ -5,6 +5,8 @@ Player::Player(const FPosition& p, const std::string& name, const std::string& s
                const std::string& direction, const std::string& Type): Object(p, name, shape, Area, direction, Type)
 {
 	is_input_ = false;
+
+	prev_position_ = p;
 }
 
 void Player::Work()
@@ -20,10 +22,12 @@ void Player::Work()
 
 void Player::OnCollision(Object* other)
 {
+	position = prev_position_;
 }
 
 void Player::control()
 {
+	prev_position_ = position;
 	
 	if (player_input_ == UP)
 	{

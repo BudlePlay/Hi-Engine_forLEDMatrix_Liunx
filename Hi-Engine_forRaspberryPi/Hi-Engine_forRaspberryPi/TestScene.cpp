@@ -6,7 +6,7 @@
 
 TestScene::TestScene(): SceneManager()
 {
-	mapPointer = new Map(7, 7);
+	mapPointer = new Map(Size, Size);
 }
 
 void TestScene::Create()

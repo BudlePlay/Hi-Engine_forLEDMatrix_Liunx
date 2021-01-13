@@ -97,21 +97,29 @@ void EngineManager::Print_Map()
 	std::vector<Position> v = scene->mapPointer->ModifiedMap();
 	for (Position i : v)
 	{
-		int comparestr = scene->mapPointer->GetPartOfMap({ i.x, i.y }).compare("  ");
+		std::string shape = scene->mapPointer->GetPartOfMap({ i.x, i.y });
+		
+		int comparestr = shape.compare("  ");
 
-		int color = 0;
+		COLOR color_ = BLACK;
 		if (comparestr == 0)
 		{
-			color = 0;
+			color_ = BLACK;
 		}
 		else
 		{
-			color = 1;
+			color_ = WHITE;
+
+			if (shape.compare("aa") == 0)
+			{
+				color_ = BLUE;
+			}
+
 		}
 
 		if (i.x < 32 && i.y < 16)
 		{
-			led_matrix_->set_pixel(i.x, i.y, color);
+			led_matrix_->set_pixel(i.x, i.y, color_);
 		}
 
 		std::cout << i.x << i.y << std::endl;

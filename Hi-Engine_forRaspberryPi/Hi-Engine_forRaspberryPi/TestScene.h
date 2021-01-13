@@ -7,7 +7,7 @@ class TestScene : public SceneManager
 private:
 public:
 	int Count = 100;
-	int Size = 7;
+	int Size = 16;
 	TestScene();;
 	void Create();
 

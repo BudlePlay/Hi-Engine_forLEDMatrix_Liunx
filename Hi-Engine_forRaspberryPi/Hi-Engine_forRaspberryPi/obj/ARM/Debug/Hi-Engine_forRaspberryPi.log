@@ -12,15 +12,12 @@ D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Eng
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.0000000000000001e-1’ to ‘2.00000003e-1f’ [-Wfloat-conversion]
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :   float Speed = 0.2;
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\Object.h(17,16): warning :                 ^~~
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,29): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,29): warning :     led_matrix_->set_pixel(i.x, i.y, color);
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,29): warning :                            ~~^
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,34): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,34): warning :     led_matrix_->set_pixel(i.x, i.y, color);
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,34): warning :                                 ~~^
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,37): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,37): warning :     led_matrix_->set_pixel(i.x, i.y, color);
-D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(114,37): warning :                                      ^~~~~
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(122,29): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(122,29): warning :     led_matrix_->set_pixel(i.x, i.y, color_);
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(122,29): warning :                            ~~^
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(122,34): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(122,34): warning :     led_matrix_->set_pixel(i.x, i.y, color_);
+D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\EngineManager.cpp(122,34): warning :                                 ~~^
   LEDMatrix.cpp
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(82,11): warning : conversion from ‘int’ to ‘unsigned char’ may change value [-Wconversion]
 D:\App\Computer\C++\Hi-Engine_forLEDMatrix_Liunx\Hi-Engine_forRaspberryPi\Hi-Engine_forRaspberryPi\LEDMatrix.cpp(82,11): warning :    set_row(row);

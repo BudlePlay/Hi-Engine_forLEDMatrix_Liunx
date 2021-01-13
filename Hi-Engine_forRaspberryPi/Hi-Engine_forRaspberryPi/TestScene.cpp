@@ -6,7 +6,9 @@
 
 TestScene::TestScene(): SceneManager()
 {
-	mapPointer = new Map(Size, Size);
+	X_SIZE = 21;
+	Y_SIZE = 16;
+	mapPointer = new Map(X_SIZE, Y_SIZE);
 }
 
 void TestScene::Create()
@@ -40,10 +42,12 @@ TestScene::~TestScene()
 
 void TestScene::Map_Make()
 {
-	worldOutliner.AddObject(new Wall(FPosition({0, 0}), "Wall_Top", "бс", Area({Size, 1}), "Wall"));
-	worldOutliner.AddObject(new Wall(FPosition({0, 0}), "Wall_Left", "бс", Area({1, Size}), "Wall"));
-	worldOutliner.AddObject(new Wall(FPosition({(float)Size - 1, 0}), "Wall_Right", "бс", Area({1, Size}), "Wall"));	
-	worldOutliner.AddObject(new Wall(FPosition({0, (float)Size-1}), "Wall_Bottom", "бс", Area({Size, 1}), "Wall"));
+	worldOutliner.AddObject(new Wall(FPosition({0, 0}), "Wall_Top", "ww", Area({X_SIZE, 1}), "Wall"));
+	worldOutliner.AddObject(new Wall(FPosition({ 0, Y_SIZE - 1 }), "Wall_Bottom", "ww", Area({ X_SIZE, 1 }), "Wall"));
+	
+	worldOutliner.AddObject(new Wall(FPosition({0, 0}), "Wall_Left", "ww", Area({1, Y_SIZE}), "Wall"));
+	worldOutliner.AddObject(new Wall(FPosition({X_SIZE - 1, 0}), "Wall_Right", "ww", Area({1, Y_SIZE}), "Wall"));	
+	
 }
 
 std::string TestScene::getW()

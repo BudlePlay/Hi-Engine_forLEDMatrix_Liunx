@@ -7,8 +7,7 @@ class TestScene : public SceneManager
 private:
 public:
 	int Count = 100;
-	int Size = 16;
-	TestScene();;
+	TestScene();
 	void Create();
 
 	void Render(float dt);

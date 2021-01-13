@@ -7,6 +7,7 @@
 #include "Tools.h"
 #include "WorldOutliner.h"
 #include <vector>
+#include "Unit.h"
 
 class SceneManager
 {
@@ -16,9 +17,11 @@ public:
 	WorldOutliner worldOutliner;
 	Map* mapPointer;
 
-	SceneManager();;
+	int X_SIZE = 0;
+	int Y_SIZE = 0;
+	SceneManager();
 
-	virtual void Create();;			//Called when the Application is first created.
+	virtual void Create();;			//CallZed when the Application is first created.
 	virtual void Render(float dt);;
 	virtual void Resize(int x, int y);;
 	virtual void Input(float dt);;

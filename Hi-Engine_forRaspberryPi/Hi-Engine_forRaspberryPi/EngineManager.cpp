@@ -104,7 +104,7 @@ void EngineManager::Print_Map()
 		COLOR color_ = BLACK;
 		if (comparestr == 0)
 		{
-			color_ = BLACK;
+			color_ = WHITE;
 		}
 		else
 		{
@@ -112,7 +112,7 @@ void EngineManager::Print_Map()
 
 			if (shape.compare("aa") == 0)
 			{
-				color_ = BLUE;
+				color_ = WHITE;
 			}
 
 		}

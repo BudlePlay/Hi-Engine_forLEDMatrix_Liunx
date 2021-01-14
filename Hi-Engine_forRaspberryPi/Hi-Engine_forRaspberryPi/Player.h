@@ -14,6 +14,9 @@ public:
 	void OnCollision(Object* other) override;
 
 private:
+
+	int delaycnt = 0;
+	
 	bool is_input_;
 	PLAYER_INPUT player_input_;
 	FPosition prev_position_{0,0};

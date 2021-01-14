@@ -29,6 +29,16 @@ LEDMatrix::LEDMatrix()
 	pullUpDnControl(JOY_DOWN, PUD_UP);
 	pullUpDnControl(JOY_LEFT, PUD_UP);
 	pullUpDnControl(JOY_RIGHT, PUD_UP);
+
+
+	for (int x = 0; x < 32; x++)
+	{
+		for (int y = 0; y < 16; y++)
+		{
+			set_pixel(x, y, BLACK);
+		}
+	}
+	refresh();
 }
 
 void LEDMatrix::clk()

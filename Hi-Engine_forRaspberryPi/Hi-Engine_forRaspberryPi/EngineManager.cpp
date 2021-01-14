@@ -92,6 +92,8 @@ void EngineManager::Work()
 
 void EngineManager::Print_Map()
 {
+
+
 	scene->SceneManager::UploadMap(scene->worldOutliner.GetObjects());
 
 	std::vector<Position> v = scene->mapPointer->ModifiedMap();
@@ -104,17 +106,16 @@ void EngineManager::Print_Map()
 		COLOR color_ = BLACK;
 		if (comparestr == 0)
 		{
-			color_ = WHITE;
+			color_ = BLACK;
 		}
 		else
 		{
-			color_ = WHITE;
+			color_ = TURQUOISE;
 
 			if (shape.compare("aa") == 0)
 			{
 				color_ = WHITE;
 			}
-
 		}
 
 		if (i.x < 32 && i.y < 16)
@@ -125,6 +126,7 @@ void EngineManager::Print_Map()
 		std::cout << i.x << i.y << std::endl;
 	}
 
+	
 	led_matrix_->refresh();
 }
 

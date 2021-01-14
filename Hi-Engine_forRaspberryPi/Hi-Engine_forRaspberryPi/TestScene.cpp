@@ -6,8 +6,8 @@
 
 TestScene::TestScene(): SceneManager()
 {
-	X_SIZE = 21;
-	Y_SIZE = 16;
+	X_SIZE = 32;		//21 �Ӱ谪
+	Y_SIZE = 16;		//16 
 	mapPointer = new Map(X_SIZE, Y_SIZE);
 }
 

@@ -13,11 +13,18 @@ void Player::Work()
 {
 	int data = LEDMatrix::get_joy();
 
-	if (data != -1)
+	
+
+	if (delaycnt > 10)
 	{
-		player_input_ = (PLAYER_INPUT)data;
-		control();
+		if (data != -1)
+		{
+			player_input_ = (PLAYER_INPUT)data;
+			control();
+		}
+		delaycnt = 0;
 	}
+	delaycnt++;
 }
 
 void Player::OnCollision(Object* other)

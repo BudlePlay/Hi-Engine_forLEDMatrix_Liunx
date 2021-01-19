@@ -22,4 +22,7 @@ private:
 	FPosition prev_position_{0,0};
 	void control();
 	void move();
+
+	void jump(int i);
+	
 };

@@ -1,6 +1,6 @@
 #pragma once
 #include "SceneManager.h"
-#include "LEDMatrix.h"
+#include "IORaspberryPi.h"
 
 
 class EngineManager
@@ -8,7 +8,7 @@ class EngineManager
 private:
 	char message[1000]{};
 	SceneManager* scene;
-	LEDMatrix* led_matrix_;
+	IORaspberryPi* led_matrix_;
 public:
 	EngineManager();
 

@@ -1,8 +1,6 @@
 #pragma once
 //g++ -o test test.cpp -lwiringPi -lwiringPiDev
 
-#include <wiringPi.h>
-#include "Tools.h"
 
 #define R1 17
 #define R2 23
@@ -24,6 +22,11 @@
 #define JOY_LEFT 19
 #define JOY_RIGHT 26
 
+#define BTN_0 16
+#define BTN_1 999
+#define BTN_2 999
+#define BTN_3 999
+
 enum COLOR
 {
     BLACK = 0,
@@ -36,13 +39,14 @@ enum COLOR
     WHITE
 };
 
-class LEDMatrix
+class IORaspberryPi
 {
 public:
 
+	
     unsigned char screen[16][32];
 
-    LEDMatrix();
+    IORaspberryPi();
 
     static void clk();
 
@@ -61,4 +65,8 @@ public:
     void set_pixel(unsigned char x, unsigned char y, unsigned char color);
 
     static int get_joy();
+
+    static int get_btn(int num);
+
+
 };

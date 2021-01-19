@@ -1,5 +1,5 @@
 #include "Player.h"
-#include "LEDMatrix.h"
+#include "IORaspberryPi.h"
 
 Player::Player(const FPosition& p, const std::string& name, const std::string& shape, const Area& Area,
                const std::string& direction, const std::string& Type): Object(p, name, shape, Area, direction, Type)
@@ -7,13 +7,14 @@ Player::Player(const FPosition& p, const std::string& name, const std::string& s
 	is_input_ = false;
 
 	prev_position_ = p;
+
 }
 
 void Player::Work()
 {
-	int data = LEDMatrix::get_joy();
+	int data = IORaspberryPi::get_joy();
 
-	
+	std::cout << IORaspberryPi::get_btn(0) << std::endl;
 
 	if (delaycnt > 10)
 	{
@@ -56,4 +57,10 @@ void Player::control()
 
 void Player::move()
 {
+	
+}
+
+void Player::jump(int i)
+{
+	return;
 }

@@ -67,7 +67,7 @@
   <ItemGroup>
     <ClCompile Include="BasicScene.cpp" />
     <ClCompile Include="EngineManager.cpp" />
-    <ClCompile Include="LEDMatrix.cpp" />
+    <ClCompile Include="IORaspberryPi.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Object.cpp" />
@@ -83,7 +83,7 @@
   <ItemGroup>
     <ClInclude Include="BasicScene.h" />
     <ClInclude Include="EngineManager.h" />
-    <ClInclude Include="LEDMatrix.h" />
+    <ClInclude Include="IORaspberryPi.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="Object.h" />
     <ClInclude Include="Player.h" />

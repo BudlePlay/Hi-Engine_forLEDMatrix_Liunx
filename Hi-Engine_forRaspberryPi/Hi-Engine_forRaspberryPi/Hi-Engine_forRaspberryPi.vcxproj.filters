@@ -35,11 +35,11 @@
     <ClCompile Include="TestScene.cpp">
       <Filter>SourceFile\User</Filter>
     </ClCompile>
-    <ClCompile Include="LEDMatrix.cpp">
-      <Filter>SourceFile\Engine\Display</Filter>
-    </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>SourceFile\User</Filter>
+    </ClCompile>
+    <ClCompile Include="IORaspberryPi.cpp">
+      <Filter>SourceFile\Engine\Display</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -102,11 +102,11 @@
     <ClInclude Include="Wall.h">
       <Filter>HeaderFile\User</Filter>
     </ClInclude>
-    <ClInclude Include="LEDMatrix.h">
-      <Filter>HeaderFile\Engine\Display</Filter>
-    </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>HeaderFile\User</Filter>
+    </ClInclude>
+    <ClInclude Include="IORaspberryPi.h">
+      <Filter>HeaderFile\Engine\Display</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

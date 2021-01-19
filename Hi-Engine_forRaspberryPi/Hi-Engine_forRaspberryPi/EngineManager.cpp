@@ -8,14 +8,14 @@
 
 EngineManager::EngineManager()
 {
-	led_matrix_ = new LEDMatrix();
+	led_matrix_ = new IORaspberryPi();
 	this->scene = new TestScene();
 	Game();
 }
 
 EngineManager::EngineManager(SceneManager* scene)
 {
-	led_matrix_ = new LEDMatrix();
+	led_matrix_ = new IORaspberryPi();
 	this->scene = scene;
 	Game();
 }
@@ -56,7 +56,7 @@ void EngineManager::Game()
 
 void EngineManager::BoomCheck()
 {
-	// Ãæµ¹°Ë»ç
+	// ï¿½æµ¹ï¿½Ë»ï¿½
 	for (auto my : scene->worldOutliner.GetObjects())
 	{
 		for (auto other : scene->worldOutliner.GetObjects())
